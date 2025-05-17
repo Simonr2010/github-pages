@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Complejidad: Sociedad, Política, Cultura y Economía</title>
+  <!-- Fuentes y estilos avanzados -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #34495e;
+      --secondary: #e67e22;
+      --accent: #16a085;
+      --light-bg: #fdfdfd;
+      --dark-bg: #2c3e50;
+      --text-color: #333;
+      --heading-font: 'Merriweather', serif;
+      --body-font: 'Open Sans', sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: var(--body-font);
+      margin: 0;
+      padding: 0;
+      background-color: var(--light-bg);
+      color: var(--text-color);
+      line-height: 1.9;
+    }
+    header {
+      background: var(--dark-bg);
+      color: white;
+      padding: 1.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header h1 { font-family: var(--heading-font); margin: 0; font-size: 2rem; }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+    }
+    nav a:hover { color: var(--accent); }
+    section { padding: 5rem 1rem; }
+    h2, h3 { font-family: var(--heading-font); color: var(--primary); margin-top: 2rem; }
+    .contenido { max-width: 1200px; margin: auto; }
+    .bg-alt { background-color: #ecf0f1; }
+    img, iframe { max-width: 100%; height: auto; margin: 1.5rem 0; border-radius: 0.5rem; }
+    ul { margin: 1.5rem 0; padding-left: 1.5rem; }
+    footer { background-color: var(--dark-bg); color: white; text-align: center; padding: 2rem 1rem; }
+    .feature { background: #fff; padding: 2rem; margin: 1.5rem 0; border-left: 5px solid var(--secondary); }
+    .glosario-item { margin: 1rem 0; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Complejidad</h1>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#contenidos">Contenidos</a>
+      <a href="#metodologia">Metodología</a>
+      <a href="#casos">Estudios de Caso</a>
+      <a href="#herramientas">Herramientas</a>
+      <a href="#referencias">Referencias</a>
+    </nav>
+  </header>
+
+  <section id="inicio">
+    <div class="contenido">
+      <h2>Bienvenido a Complejidad</h2>
+      <p>Este portal educativo ofrece un recorrido exhaustivo por cuatro ejes fundamentales: sociedad, política, cultura y economía. Nuestro objetivo es proporcionar un espacio formativo donde converjan marcos teóricos, análisis históricos y ejemplos contemporáneos que ilustren las dinámicas y tensiones que atraviesan estas disciplinas. A través de un enfoque interdisciplinario, buscamos fomentar la reflexión crítica y el desarrollo de competencias analíticas que fortalezcan tu aprendizaje académico y profesional.</p>
+      <p>La navegación está diseñada para guiarte desde conceptos básicos hasta casos prácticos, integrando recursos visuales e interactivos que facilitan la asimilación de información compleja. Cada sección aporta contexto, explicaciones profundas y enlaces a material complementario para profundizar en los temas.</p>
+      <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="Interconexión global">
+    </div>
+  </section>
+
+  <section id="contenidos" class="bg-alt">
+    <div class="contenido">
+      <h2>Contenidos Detallados</h2>
+      <h3>Sociedad</h3>
+      <p>La sociedad se construye a partir de estructuras normativas y relaciones de poder que inciden en la vida cotidiana. Exploramos la estratificación social analizando cómo los sistemas de clases y estatus generan desigualdades persistentes. Además, examinamos la movilidad social a través de indicadores educativos y económicos, ilustrado con datos de la OCDE y estudios longitudinales que muestran cambios intergeneracionales.</p>
+      <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg" alt="Panel debate sociedad">
+      
+      <h3>Política</h3>
+      <p>La política define las reglas del juego colectivo y las instituciones encargadas de la gobernanza. En esta sección se describe en detalle la evolución de los sistemas democráticos, se comparan modelos parlamentarios y presidencialistas, y se discuten mecanismos de participación directa como referendos y asambleas ciudadanas, ejemplificados con casos de Suiza y Estados Unidos.</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/R6BEy1uJkO4" title="Entrevista política" frameborder="0" allowfullscreen></iframe>
+
+      <h3>Cultura</h3>
+      <p>Entendemos la cultura como el conjunto de prácticas simbólicas y expresiones creativas que configuran identidades colectivas. Analizamos procesos de hibridación cultural y memoria social, apoyándonos en ejemplos como el street art en América Latina y proyectos digitales de preservación patrimonial en Europa.</p>
+      <img src="https://images.pexels.com/photos/374074/pexels-photo-374074.jpeg" alt="Cultura digital">
+
+      <h3>Economía</h3>
+      <p>La economía estudia la producción, distribución y consumo de recursos. Revisamos teorías macro y microeconómicas, repasamos crisis históricas como la Gran Depresión y la recesión del 2008, y evaluamos propuestas contemporáneas para un desarrollo sostenible, incluyendo la economía circular y los bonos de impacto social.</p>
+      <img src="https://images.pexels.com/photos/1557432/pexels-photo-1557432.jpeg" alt="Gráficos económicos">
+    </div>
+  </section>
+
+  <section id="metodologia">
+    <div class="contenido">
+      <h2>Metodología de Estudio</h2>
+      <p>La metodología de este portal combina investigación cualitativa y cuantitativa para proporcionar un análisis robusto. Utilizamos revisión bibliográfica, análisis de datos estadísticos y estudios de caso comparativos. Cada tema incluye preguntas de reflexión crítica y ejercicios prácticos diseñados para evaluar tu comprensión y promover el debate académico.</p>
+      <img src="https://images.pexels.com/photos/4145197/pexels-photo-4145197.jpeg" alt="Investigación académica">
+    </div>
+  </section>
+
+  <section id="casos" class="bg-alt">
+    <div class="contenido">
+      <h2>Estudios de Caso Relevantes</h2>
+      <div class="feature">
+        <h3>Transformación Urbana en Medellín</h3>
+        <p>Se examina cómo políticas de espacio público y programas sociales lograron reducir la violencia y mejorar la cohesión comunitaria. Este estudio muestra la interrelación entre sociedad, política y cultura en la regeneración de la ciudad.</p>
+      </div>
+      <div class="feature">
+        <h3>Referéndum Constitucional en Chile</h3>
+        <p>Analiza el proceso político participativo y sus implicaciones para la reforma institucional. Se destacan las dinámicas de movilización ciudadana y el papel de los medios de comunicación.</p>
+      </div>
+      <div class="feature">
+        <h3>Economía Circular en Países Bajos</h3>
+        <p>Detalle de las políticas públicas y modelos de negocio circulares implementados, evaluando su impacto ambiental y social, y su replicabilidad en otros contextos.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="herramientas">
+    <div class="contenido">
+      <h2>Herramientas y Recursos</h2>
+      <p>Disponemos de dashboards interactivos, mapas temáticos y simuladores de políticas públicas que permiten manipular variables y observar resultados en tiempo real. Estos recursos facilitan la comprensión de datos complejos y fomentan el aprendizaje experiencial.</p>
+      <img src="https://images.pexels.com/photos/3182773/pexels-photo-3182773.jpeg" alt="Dashboard interactivo">
+    </div>
+  </section>
+
+  <section id="referencias" class="bg-alt">
+    <div class="contenido">
+      <h2>Referencias Bibliográficas</h2>
+      <ul>
+        <li>Marx, K. "El Capital". Siglo XXI Editores.</li>
+        <li>Weber, M. "Economía y sociedad". Fondo de Cultura Económica.</li>
+        <li>Putnam, R. D. "Bowling Alone". Simon & Schuster.</li>
+        <li>Dahl, R. "La Poliarquía". Yale University Press.</li>
+        <li>OCDE. "Estudios de Movilidad Social Internacional". OECD Publishing.</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Complejidad. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
